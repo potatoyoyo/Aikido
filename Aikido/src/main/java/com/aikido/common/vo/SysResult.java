@@ -36,7 +36,7 @@ public class SysResult implements Serializable{
 		return new SysResult(200,msg, data);
 	}
 	
-	//4.定义失败的方�?
+	//4.定义失败的方
 	public static SysResult fail() {
 		
 		return new SysResult(201,"业务调用失败",null);
