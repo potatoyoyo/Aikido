@@ -1,4 +1,4 @@
-package cn.common.pojo;
+package com.aikido.common.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

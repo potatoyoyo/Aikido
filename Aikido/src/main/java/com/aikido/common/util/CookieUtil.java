@@ -1,4 +1,4 @@
-package cn.common.util;
+package com.aikido.common.util;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

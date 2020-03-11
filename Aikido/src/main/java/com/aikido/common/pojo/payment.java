@@ -1,4 +1,4 @@
-package cn.common.pojo;
+package com.aikido.common.pojo;
 
 import java.sql.Date;
 

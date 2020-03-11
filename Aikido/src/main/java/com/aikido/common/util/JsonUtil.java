@@ -1,4 +1,4 @@
-package cn.common.util;
+package com.aikido.common.util;
 
 import java.io.File;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package cn.common.aop;
+package com.aikido.common.aop;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import com.jt.vo.SysResult;
 
 //1.标识全局异常处理机制.
-@RestControllerAdvice   //@ControllerAdvice(AOP中�?�知) + @ResponseBody
+@RestControllerAdvice   //@ControllerAdvice(AOP中�?�知) + @ResponseBody
 public class SysResultException {
 	
 	/**
-	 * 如果后台服务器发生运行时异常.则执行异常方�?
+	 * 如果后台服务器发生运行时异常.则执行异常方�?
 	 */
 	@ExceptionHandler(RuntimeException.class)
 	public SysResult sysResult(Exception exception) {

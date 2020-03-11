@@ -1,4 +1,4 @@
-package cn.common.pojo;
+package com.aikido.common.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -6,8 +6,8 @@ import java.util.Date;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
-//pojo»ùÀà£¬Íê³É2¸öÈÎÎñ£¬2¸öÈÕÆÚ£¬ÊµÏÖÐòÁÐ»¯
-@Data	//set/get·½·¨
+//pojoï¿½ï¿½ï¿½à£¬ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½
+@Data	//set/getï¿½ï¿½ï¿½ï¿½
 @Accessors(chain=true)
 public class BasePojo implements Serializable{
 	private Date created_time;	

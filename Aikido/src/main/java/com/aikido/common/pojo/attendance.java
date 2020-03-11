@@ -1,4 +1,4 @@
-package cn.common.pojo;
+package com.aikido.common.pojo;
 
 public class attendance extends BasePojo {
 	private   Integer  att_id;

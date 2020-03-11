@@ -1,4 +1,4 @@
-package cn.common.util;
+package com.aikido.common.util;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,31 +6,31 @@ import lombok.Setter;
 @Getter
 @Setter
 public class JsonResult<T> {
-	/** ³É¹¦ */
+	/** ï¿½É¹ï¿½ */
 	public static final int SUCCESS = 200;
 
-	/** Ã»ÓÐµÇÂ¼ */
+	/** Ã»ï¿½Ðµï¿½Â¼ */
 	public static final int NOT_LOGIN = 400;
 
-	/** ·¢ÉúÒì³£ */
+	/** ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ */
 	public static final int EXCEPTION = 401;
 
-	/** ÏµÍ³´íÎó */
+	/** ÏµÍ³ï¿½ï¿½ï¿½ï¿½ */
 	public static final int SYS_ERROR = 402;
 
-	/** ²ÎÊý´íÎó */
+	/** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 	public static final int PARAMS_ERROR = 403;
 
-	/** ²»Ö§³Ö»òÒÑ¾­·ÏÆú */
+	/** ï¿½ï¿½Ö§ï¿½Ö»ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ */
 	public static final int NOT_SUPPORTED = 410;
 
-	/** AuthCode´íÎó */
+	/** AuthCodeï¿½ï¿½ï¿½ï¿½ */
 	public static final int INVALID_AUTHCODE = 444;
 
-	/** Ì«Æµ·±µÄµ÷ÓÃ */
+	/** Ì«Æµï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ */
 	public static final int TOO_FREQUENT = 445;
 
-	/** Î´ÖªµÄ´íÎó */
+	/** Î´Öªï¿½Ä´ï¿½ï¿½ï¿½ */
 	public static final int UNKNOWN_ERROR = 499;
 	
 	private int code;
